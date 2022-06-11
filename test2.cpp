@@ -1,8 +1,3 @@
-#include<iostream>
+hi there this is cpp random file.
 
-using namespace std;
-
-int main() 
-{
-    cout<<"hello there";
-}
+thi is the change from the visual studio locally
