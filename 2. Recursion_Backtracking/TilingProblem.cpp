@@ -17,3 +17,6 @@ int fillBoard(int n)
  	cout<<fillBoard(n);
   	return 0;
  }
+
+
+// there is possibility of using dynamic programming
