@@ -45,9 +45,10 @@ bool isSortedTwo(int a[],int i, int n)
 
 int main(int argc, char const* argv[])
 {
-	int a[] = { 1,2,3,4,5,4};
+	int a[] = { 1,2,3,4};
 	int n = sizeof(a) / sizeof(int);
 
-	cout << isSorted(a,n)<<"  see";
+	cout << isSorted(a,n)<<"  see"<<endl;
+	cout << isSortedTwo(a,0,n)<<"  see";
 	return 0;
 }
