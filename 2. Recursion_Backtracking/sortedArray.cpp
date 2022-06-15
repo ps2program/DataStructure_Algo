@@ -28,6 +28,21 @@ bool isSorted(int a[], int n) {
 
 }
 
+bool isSortedTwo(int a[],int i, int n)
+{
+	if(i==n-1)
+	{
+		return true;
+	}
+
+	if(a[i]<a[i+1]  && isSortedTwo(a,i+1,n))
+	{
+		return true;
+	}
+
+	return false;
+}
+
 int main(int argc, char const* argv[])
 {
 	int a[] = { 1,2,3,4,5,4};
