@@ -2,19 +2,19 @@
 using namespace std;
 
 
-void printNumber1(int n)
+void printInDec(int n)
 {
 
 	//base case
 	if(n!=0)
 	{
-	printNumber1(n-1);
+	printInDec(n-1);
 	}
 	cout<<n<<endl;
 	return;
 	//rec case
 }
-void printNumber2(int n)
+void printInInc(int n)
 {
 
 	//base case
@@ -23,13 +23,13 @@ void printNumber2(int n)
 		return;
 	}
 	cout<<n<<endl;
-	printNumber2(n-1);
+	printInInc(n-1);
 	//rec case
 }
 
 int main(int argc, char const *argv[])
 {
-	printNumber1(5);
-	printNumber2(5);
+	printInDec(5);
+	printInInc(5);
 	return 0;
 }
