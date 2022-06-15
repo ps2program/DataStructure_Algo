@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//large first then small work
 void dec(int n)
 {
 	if(n==0)
@@ -12,6 +13,8 @@ void dec(int n)
 	dec(n-1);
 }
 
+
+//small first then large work
 void inc(int n)
 {
 	if(n==0)
